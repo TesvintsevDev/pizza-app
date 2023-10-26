@@ -1,5 +1,7 @@
 import { InputHTMLAttributes } from 'react';
 
-export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-	isValid?: boolean;
-}
+export type InputProps = {
+  isValid?: boolean;
+  className?: string;
+  placeholder: string;
+} & InputHTMLAttributes<HTMLInputElement>;
