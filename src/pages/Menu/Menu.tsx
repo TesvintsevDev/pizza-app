@@ -7,7 +7,7 @@ import styles from './Menu.module.css';
 import axios, { AxiosError } from 'axios';
 import { MenuList } from './MenuList/MenuList';
 
-export default function Menu() {
+export function Menu() {
 	const [products, setProducts] = useState<Product[]>([]);
 	const [isLoading, setIsLoading] = useState<boolean>(false);
 	const [error, setError] = useState<string | undefined>();
@@ -44,3 +44,5 @@ export default function Menu() {
 		</div>
 	</>;
 }
+
+export default Menu;
