@@ -3,6 +3,10 @@
 ![pizza](https://github.com/TesvintsevDev/pizza-app/assets/83923244/7104eb04-1c69-48c2-aeb4-9e00bb118432)
 
 # Demo - https://pizzaaa-shoooop.netlify.app
+Test:
+- Login: 1test@test.ru
+- Password: 123456
+or create new user
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
