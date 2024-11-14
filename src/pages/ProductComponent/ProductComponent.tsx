@@ -1,16 +1,16 @@
 import { Suspense } from 'react'; 
 import { Await, useLoaderData } from 'react-router-dom'; 
-import { IProduct } from '../../interfaces/product.interface'; 
+import { Product as ProductType } from '../../interfaces/product.interface'; 
 
-import styles from './Product.module.css'; 
+import styles from './ProductComponent.module.css'; 
 
-export function Product() { 
-	const data = useLoaderData() as { data: IProduct }; 
+export function ProductComponent() { 
+	const data = useLoaderData() as { data: ProductType }; 
 
 	return ( 
 		<Suspense fallback='Загружаю...'> 
 			<Await resolve={data.data}> 
-				{({ data }: { data: IProduct }) => ( 
+				{({ data }: { data: ProductType }) => ( 
 					<div className={styles.product}> 
 						<div className={styles['image-container']}> 
 							<img src={data.image} alt='Product' className={styles.image} /> 
