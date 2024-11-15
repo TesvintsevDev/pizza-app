@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# Desktop-версия приложения для заказа пиццы, разработанная с помощью React, TypeScript и Vite.
 
 ![pizza](https://github.com/TesvintsevDev/pizza-app/assets/83923244/7104eb04-1c69-48c2-aeb4-9e00bb118432)
 
