@@ -4,7 +4,7 @@
 
 # Demo - https://pizzaaa-shoooop.netlify.app
 Test:
-- Login: 1test@test.ru
+- Login: 11test@test.ru
 - Password: 123456
 or create new user
 
